@@ -28,11 +28,13 @@ const registerUser = async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, saltRounds);
     //  const newUser = { username, password: hashedPassword };
 
-    const newUser = createUserRoleBased({
-      username,
-      password: hashedPassword,
-      role,
-    });
+    const newUser = createUserRoleBased(
+      {
+        username,
+        password: hashedPassword,
+      },
+      role
+    );
     users.push(newUser);
     writeUsers(users);
 
@@ -48,7 +50,12 @@ const registerUser = async (req, res) => {
 };
 
 const loginUser = async (req, res) => {
+  console.log(`${loginUser} req.body =`, req.body);
+
   try {
+    if (!req.body || !req.body.username || !req.body.password) {
+      return res.status(400).json({ message: "Invalid request body" });
+    }
     const { username, password } = req.body;
     //Lire BDD Users
     const users = readUsers();
@@ -59,7 +66,6 @@ const loginUser = async (req, res) => {
 
     //Create JWT
     const token = jwt.sign(
-      { username: user.username },
       {
         username: user.username,
         role: user.role,

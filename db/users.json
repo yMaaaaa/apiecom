@@ -23,5 +23,16 @@
     "username": "user",
     "password": "$2b$10$mvrBDQBpTJvL5kUiq3w5Y.KN534oPvVBSwHyodUcMPDM8xsZNiaDe"
   },
-  null
+  {
+    "id": "a5ff3943-39c4-4b16-bbf2-4fdecf7b9de8",
+    "username": "Bob",
+    "password": "$2b$10$rUl.9jAdgHK2uM.ZAHlPB.U.8F80JRwZ9xpF3yInBPfRKUKeDZUVe",
+    "role": "client"
+  },
+  {
+    "id": "73e6aba8-9580-49d7-8d1f-5ac0f4a5e789",
+    "username": "Bob2",
+    "password": "$2b$10$VFnylek4VyYRJYdF.y0bX.a1JLS2kppMfK5K3otBEVcuFzKQQT49O",
+    "role": "admin"
+  }
 ]
