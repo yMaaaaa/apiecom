@@ -1,0 +1,27 @@
+[
+  {
+    "username": "Matt",
+    "password": {}
+  },
+  {
+    "username": "Test",
+    "password": {}
+  },
+  {
+    "username": "TestZ",
+    "password": {}
+  },
+  {
+    "username": "camarche",
+    "password": {}
+  },
+  {
+    "username": "insh",
+    "password": "$2b$10$/ccd9fUAT0hJo04lFj58J.Q1BLOilUODcTlbk80AqctqZKEcmQLYS"
+  },
+  {
+    "username": "user",
+    "password": "$2b$10$mvrBDQBpTJvL5kUiq3w5Y.KN534oPvVBSwHyodUcMPDM8xsZNiaDe"
+  },
+  null
+]

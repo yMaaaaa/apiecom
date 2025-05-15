@@ -1,0 +1,26 @@
+{
+  "name": "crudapi",
+  "version": "1.0.0",
+  "description": "APIs pour voitures",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "crud",
+    "express",
+    "node"
+  ],
+  "author": "ymaaaaa",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
+  }
+}

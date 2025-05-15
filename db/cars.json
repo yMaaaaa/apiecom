@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "energy": "gasoline",
+    "country": "Japan",
+    "manufacturer": "Nissan Nismo",
+    "year": 2002,
+    "model": "350z Z33",
+    "power": "313ch",
+    "type": "Sport"
+  },
+  {
+    "id": 2,
+    "energy": "gasoline",
+    "country": "Japan",
+    "manufacturer": "Nissan Silvia",
+    "year": 1999,
+    "model": "S15 Spec R",
+    "power": "250ch",
+    "type": "Sport"
+  },
+  {
+    "id": 3,
+    "energy": "gasoline",
+    "country": "Japan",
+    "manufacturer": "Mitsubishi",
+    "year": 2001,
+    "model": "Lancer Evo 7",
+    "power": "280ch",
+    "type": "Sport"
+  },
+  {
+    "id": 4,
+    "energy": "gasoline",
+    "country": "Japan",
+    "manufacturer": "Mazda",
+    "year": 1996,
+    "model": "RX7",
+    "power": "280ch",
+    "type": "Sport"
+  },
+  {
+    "id": 5,
+    "energy": "gasoline",
+    "country": "Japan",
+    "manufacturer": "Honda",
+    "year": 1990,
+    "model": "NSX Type R",
+    "power": "280ch",
+    "type": "Sport"
+  },
+  {
+    "id": "8e8592c0-acfe-4b86-a28d-cbf0b8f53d7f",
+    "energy": "gasoline",
+    "country": "Japan",
+    "manufacturer": "Nissan Nismo",
+    "year": 2016,
+    "model": "GTR R35",
+    "power": "545ch",
+    "type": "Sport"
+  }
+]
