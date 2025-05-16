@@ -34,5 +34,11 @@
     "username": "Bob2",
     "password": "$2b$10$VFnylek4VyYRJYdF.y0bX.a1JLS2kppMfK5K3otBEVcuFzKQQT49O",
     "role": "admin"
+  },
+  {
+    "id": "b1fc6cc8-b629-4307-b6d5-45839d57ca03",
+    "username": "Platon",
+    "password": "$2b$10$LFd0oGT6VnuVTLpsTjalMOmw2a0UsO093qP8jG7R0Fz2rseHjikgC",
+    "role": "client"
   }
 ]

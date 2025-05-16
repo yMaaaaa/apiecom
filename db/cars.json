@@ -57,6 +57,12 @@
     "year": 2016,
     "model": "GTR R35",
     "power": "545ch",
-    "type": "Sport"
+    "type": "Sport",
+    "ratings": [
+      {
+        "username": "Platon",
+        "numericRating": 5
+      }
+    ]
   }
 ]

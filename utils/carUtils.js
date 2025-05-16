@@ -30,4 +30,5 @@ const createCarId = (carData) => {
 module.exports = {
   readDB,
   createCarId,
+  writeDB,
 };
